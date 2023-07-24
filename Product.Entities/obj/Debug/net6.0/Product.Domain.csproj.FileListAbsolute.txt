@@ -1,0 +1,5 @@
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\Product.Domain.csproj.AssemblyReference.cache
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\Product.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\Product.Domain.AssemblyInfoInputs.cache
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\Product.Domain.AssemblyInfo.cs
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\Product.Domain.csproj.CoreCompileInputs.cache

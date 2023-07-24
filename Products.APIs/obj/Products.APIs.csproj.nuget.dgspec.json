@@ -1,0 +1,313 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.APIs\\Products.APIs.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Product.Entities\\Products.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Product.Entities\\Products.Domain.csproj",
+        "projectName": "Products.Domain",
+        "projectPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Product.Entities\\Products.Domain.csproj",
+        "packagesPath": "C:\\Users\\MAbdElMoneam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Product.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MAbdElMoneam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.APIs\\Products.APIs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.APIs\\Products.APIs.csproj",
+        "projectName": "Products.APIs",
+        "projectPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.APIs\\Products.APIs.csproj",
+        "packagesPath": "C:\\Users\\MAbdElMoneam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.APIs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MAbdElMoneam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Product.Entities\\Products.Domain.csproj": {
+                "projectPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Product.Entities\\Products.Domain.csproj"
+              },
+              "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.Infrastructure\\Products.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.Infrastructure\\Products.Infrastructure.csproj"
+              },
+              "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.Service\\Products.Service.csproj": {
+                "projectPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.Service\\Products.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.Infrastructure\\Products.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.Infrastructure\\Products.Infrastructure.csproj",
+        "projectName": "Products.Infrastructure",
+        "projectPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.Infrastructure\\Products.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\MAbdElMoneam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MAbdElMoneam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Product.Entities\\Products.Domain.csproj": {
+                "projectPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Product.Entities\\Products.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.Service\\Products.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.Service\\Products.Service.csproj",
+        "projectName": "Products.Service",
+        "projectPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.Service\\Products.Service.csproj",
+        "packagesPath": "C:\\Users\\MAbdElMoneam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Products.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MAbdElMoneam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Product.Entities\\Products.Domain.csproj": {
+                "projectPath": "C:\\Users\\MAbdElMoneam\\Source\\Repos\\Mahmoud-Hamed99\\OnionArchitecture-CQRS-Example\\Product.Entities\\Products.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

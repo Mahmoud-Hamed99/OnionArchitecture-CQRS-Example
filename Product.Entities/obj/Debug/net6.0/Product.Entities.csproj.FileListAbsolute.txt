@@ -1,0 +1,13 @@
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\bin\Debug\net6.0\Product.Entities.deps.json
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\bin\Debug\net6.0\Product.Entities.runtimeconfig.json
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\bin\Debug\net6.0\Product.Entities.dll
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\bin\Debug\net6.0\ref\Product.Entities.dll
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\bin\Debug\net6.0\Product.Entities.pdb
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\Product.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\Product.Entities.AssemblyInfoInputs.cache
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\Product.Entities.AssemblyInfo.cs
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\Product.Entities.csproj.CoreCompileInputs.cache
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\Product.Entities.dll
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\ref\Product.Entities.dll
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\Product.Entities.pdb
+C:\BlueCloud\Solutions\ScreenID_Website\OnionArchitectureWithCQRS\Product.Entities\obj\Debug\net6.0\Product.Entities.genruntimeconfig.cache
